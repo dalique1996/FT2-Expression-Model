@@ -1,0 +1,17 @@
+nogen:5
+nspecies:1
+x_cells:1
+y_cells:1
+initial:0,0,0
+days:1
+%parameter values
+FT2_bassal:25.64
+FT2_GIact:47.04
+FT2_GIaffinity:0.88
+FT2_GIn:2
+FT2_TOC1repress:40.16
+FT2_TOC1affinity:0.96
+FT2_TOC1n:3
+FT2_LHY2rep-aff:8.60
+FT2_LHY2n:2
+FT2_degradation:0.36
