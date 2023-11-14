@@ -8,7 +8,13 @@ x=linspace(16,12,41);
 if ismember ('lhy2',genotype) %%only LD!!!
    load gauss_lhy2_cf.mat
    data(:,4:9)=datalhy2(:,1:6); 
+
+else if ismember ('NExt', genotype) %%only LD+NExt4h in WT!!!
+   load gauss_NExt_cf.mat
+   data(:,1:3)=dataNExt;
+
 end
+
 
 
 %%Interpolate
@@ -40,7 +46,7 @@ elseif ismember ('toc1', genotype)
         b=[0 0 0 0];
         r=[1 1 0 1];
 elseif ismember ('TOC1ox', genotype)
-        b=[0 0 75 0];
+        b=[0 0 60 0];
         r=[1 1 1 1];
 elseif ismember ('cdf2', genotype)
         b=[0 0 0 0];
@@ -113,8 +119,7 @@ for i=1:length(x1)
 end
 
 
-stfun1=repmat(stfun,days,1); %%Para que usar 2 dias?¿
+stfun1=repmat(stfun,days,1); 
 
-%save gaussianpulseLDDlhy2 stfun
 
 end

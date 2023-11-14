@@ -23,8 +23,6 @@ FT2 = y;
 % 9.FT2_LHY2n
 % 10.FT2_degradation
 
-dCDF2=0;
-dCO1p=0;
 
 %%GI-TOC1-LHY2 model
 dFT2 = ((p(1)+(p(2)*(p(3)*GI)^p(4)))/...
