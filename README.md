@@ -16,6 +16,7 @@ TOC1-GI-LHY2 model can be simulated from “run.m” file. “run.m” takes as 
 ‘TOC1ox’: TOC1 constitutive overexpressor
 ‘lhy2’: LHY2 knockout mutant
 ‘LHY2ox’: LHY2 constitutive overexpressor
+‘Next’: represents 4-hour night extension in LD and WT regime
 
 (Any not valid genotype is taken as ‘WT’)
 
