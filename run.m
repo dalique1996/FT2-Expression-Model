@@ -3,13 +3,13 @@ clc
 
 %%%%SELECT%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-light=16; %hours of light per day (daylength)
-genotype={'TOC1ox'}; % README for list of possible genotypes (Any not valid genotype is taken as WT) 
-gene={'FT2'}; %README for list of possible genes (Any not valid gene is taken as FT2)
-              %Only FT2 expression is predicted 
-              %For other genes Gaussian function used as input for the simulation is plotted
-%days are fixed to 1, it can be increased in FT2.parms file
+light=16;        %hours of light per day (daylength)
+genotype={'WT'}; % README for list of possible genotypes (Any not valid genotype is taken as WT) 
+gene={'TOC1'};    % README for list of possible genes (Any not valid gene is taken as FT2)
+                 %Only FT2 expression is predicted 
+                 %For other genes Gaussian function used as input for the simulation is plotted
 
+%days are fixed to 1, it can be increased in FT2.parms file
 %Minimal expression values are set to 0 instead of 1 for visualization
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
