@@ -1,3 +1,5 @@
+This model was published on February 27, 2024 Nature Communicatons https://doi.org/10.1038/s41467-024-46081-6
+
 # FT2-Expression-Model
 Code for the simulation of poplar FT2 daily transcription in MATLAB under varying daylengths and after manipulation of core clock genes. Built on MATLAB_R2022a.
 
